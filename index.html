@@ -14,7 +14,23 @@
     />
   </head>
   <body>
-   
+    
+   <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyA238XlRXX6WoWwT9rMOktStHSJpxqd3kE",
+    authDomain: "iara-games.firebaseapp.com",
+    projectId: "iara-games",
+    storageBucket: "iara-games.appspot.com",
+    messagingSenderId: "705977470558",
+    appId: "1:705977470558:web:16a018f5af25f66085eecf",
+    measurementId: "G-6KGKT8MCFJ"
+  };
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+    
     </header>
     <main class="container">
       <section class="wrapper">
