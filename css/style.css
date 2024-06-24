@@ -65,8 +65,8 @@ body {
 }
 
 .btn-primary {
-  background-color: #007bff;
   border-color: #007bff;
+  
 }
 
 .no-account-text {
@@ -76,4 +76,18 @@ body {
 
 .register-link {
   color: #007bff;
+}
+
+.face{
+  background-color: #007bff;
+  color:white;
+  border: 0;
+  border-radius: 5px;  
+
+}
+
+.face:hover{
+  background-color: #0a6bd3;
+  color:white;
+  border: 0;
 }
